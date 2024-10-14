@@ -48,4 +48,3 @@ CHECK (NOT EXISTS (SELECT 1
                     GROUP BY c.id_comp,c.id_tcomp
                     HAVING c.importe != COUNT(l.importe))
  */
- 
